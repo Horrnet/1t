@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* container контент по центру, фон тянется */
+.container{
+    margin: 0 auto;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/* ----------------header---------------- */
+.aboutme{
+    display: flex;
+}
+
+.textinfo{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+
+}
+img{
+    border-radius: 50%;
+    margin-left: 350px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.aboutme{
+    background-color: #523f47;
+}
+
+.myinfo{
+    color: white;
+    
+}
+/* ----------------main---------------- */
+
+/* (фон после header`а и до form) */
+
+.objective{ 
+    background-color: rgb(235, 235, 235);
+}
+.experience{
+    background-color: rgb(235, 235, 235);
+}
+.skills{
+    background-color: rgb(235, 235, 235);
+}
+.language{
+    background-color: rgb(235, 235, 235);
+}
+
+
+/* ===objective=== */
+.objective_header{
+    color: #523f47;
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-bottom: 30px;
+}
+.objectivetext{
+    padding-left: 300px;
+    padding-bottom: 20px;
+}
+.objectivetext2{
+    padding-left: 300px;
+    padding-bottom: 70px;
+}
+
+
+/* ===experience=== */
+
+
+.experience_header{
+    color: #523f47;
+    padding-left: 300px;
+    padding-bottom: 30px;
+}
+
+.experience_extra{
+    display: flex;
+}
+.experience_years{
+    color: #523f47;
+    padding-left: 300px;
+    /* padding-top: 10px; */
+    /* padding-bottom: 15px; */
+
+}
+.experience_title{
+    color: #523f47;
+    padding-left: 100px;
+    padding-bottom: 3px;
+}
+.ex_alt{
+    padding-left: 117px;
+}
+
+.experience_text{
+    padding-left: 495px;
+    padding-bottom: 5px;
+}
+
+/* ===skills=== */
+
+.skill_header{
+    color: #523f47;
+    padding-left: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.skill_text{
+    padding-left: 300px;
+    padding-bottom: 30px;
+}
+/* ===language=== */
+.language_header{
+    color: #523f47;
+    padding-left: 300px;
+    padding-bottom: 30px;
+}
+.language_list{
+    /* color: #523f47; */
+    padding-left: 300px;
+    padding-bottom: 80px;
+    list-style: none;
+}
+
+.list_item{
+    color: black;
+}
+.list_item::before{
+    content:"\25A0"; 
+    color:#523f47;
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+}
+/* ----------------form---------------- */
+
+.form_box{
+    display: flex;
+    justify-content: center;
+}
+
+.form_header{
+    color: #523f47;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.form{
+    background-color: rgb(228, 211, 190);
+}    
+.form_input{
+    display: flex;
+    justify-content: center;
+}
+.name_header{
+    color: #523f47;
+}
+.email_header{
+    color: #523f47;
+}
+.name_field{
+    display: flex;
+    width: 400px;
+    padding:5px;
+    margin: 5px 0;
+
+
+    border: 5px solid #523f47;
+    border-top: none ;
+    border-left: none;
+    border-right: none;
+    background-color:rgb(228, 211, 190);
+    font-weight: bold;
+    resize: none;
+}
+
+.email_field{
+    display: flex;
+    width:400px;
+    padding: 5px;  
+    margin: 5px 0;
+    
+    
+    border: 5px solid #523f47;
+    border-top: none ;
+    border-left: none;
+    border-right: none;
+    background-color:rgb(228, 211, 190);
+    font-weight: bold;
+    resize: none;
+}
+
+.textareafield{
+    height: 30px;
+    width: 810px;
+    padding: 5px;
+    margin: 5px 0;
+    border: 5px solid #523f47;
+    border-top: none ;
+    border-left: none;
+    border-right: none;
+    background-color:rgb(228, 211, 190);
+    font-weight: bold;
+    resize: none;;
+}
+
+button{
+    background-color: #523f47;
+    padding: 20px;
+    margin: 5px 0;
+    width: 230px;
+    border: 0;
+    color: white;
+    margin-bottom: 50px;
+}
+button:hover{
+    background-color: rgb(128, 128, 255);
+}
+.button_box{
+    display: flex;
+    justify-content: center;
+}
+
+/* ----------------footer---------------- */
+.footer{
+    background-color: #523f47;
+}
+/* ===contacts=== */
+.contacts_header{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.contacts_header{
+    color: white;
+}
+
+.contact_link{
+    color: white;
+    text-decoration: none;
+}
+.contact_link:hover{
+    color: rgb(128, 128, 255);
+}
+
+
+.contact_list{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    list-style-type: none;
+} 
+
+
+.rights{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    color: grey;
+}
